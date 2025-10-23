@@ -9,43 +9,55 @@
   </head>
   <body class="d-flex flex-column min-vh-100">
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
-      <div class="container-fluid">
-        <a href="index.html" class="navbar-brand d-flex align-items-center">
-          <img src="images/logo.png" alt="Logo" width="50" height="50" class="me-2">
-          <span class="fw-bold">Precious Apparel</span>
-        </a>
+    <!-- navigation -->
+    <section>
+              <nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+    <a href="index.html">
+     <img src="images/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle"></a>
+      Precious Apparel
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" href="index.html"><i class="bi bi-house-door"></i> Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html"><i class="bi bi-person-circle"></i> About Us</a></li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="bi bi-list"></i> Products</a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="winter.html"><i class="bi bi-snow"></i> Winter</a></li>
-                <li><a class="dropdown-item" href="summer.html"><i class="bi bi-sun"></i> Summer</a></li>
-                <li><a class="dropdown-item" href="autumn.html"><i class="bi bi-leaf-fill"></i> Autumn</a></li>
-                <li><a class="dropdown-item" href="spring.html"><i class="bi bi-flower1"></i> Spring</a></li>
-              </ul>
-            </li>
-            <li class="nav-item"><a class="nav-link" href="cart.html"><i class="bi bi-cart"></i> Cart</a></li>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"><i class="bi bi-house-door" style="font-style: normal;"> Home</i > </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><i class="bi bi-person-circle" style="font-style: normal;"></i>About us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="Products.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           <i class="bi bi-list"></i> Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="winter.html"><i class="bi bi-snow"></i>Winter</a></li>
+            <li><a class="dropdown-item" href="summer.html"><i class="bi bi-sun"></i>summer</a></li>
+             <li><a class="dropdown-item" href="Autumn.html"><i class="bi bi-leaf-fill"></i>Autumn</a></li>
+             <li><a class="dropdown-item" href="spring.html"><i class="bi bi-flower1"></i>Spring</a></li>
+            <li><hr class="dropdown-divider"></li>
+            
           </ul>
-
-          <form class="d-flex me-2" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-
-          <a class="btn btn-primary" href="login.html"><i class="bi bi-box-arrow-in-right"></i> Log in</a>
-        </div>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="cart.html"><i class="bi bi-cart"></i>Cart</a>
+        </li>
+        
+      </ul>
+        <div class="d-grid gap-2 d-md-block">
+        <a class="btn btn-primary" href="Login.html" role="button"><i class="bi bi-box-arrow-in-right"></i>Log in</a>   
       </div>
-    </nav>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    
+    </section>
 
     <!-- Cart Section -->
     <main class="flex-fill">
