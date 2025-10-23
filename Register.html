@@ -1,0 +1,90 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <!-- navigation -->
+    <section>
+              <nav class="navbar navbar-expand-lg bg-warning">
+  <div class="container-fluid">
+      <a href="index.html"><img src="images/logo.png" alt="Logo" width="60" height="60" class="d-inline-block align-text-middle" ></a>
+      
+      </div>
+     </nav>
+    </section>
+<!-- Resgister -->
+    <section class="py-5 mt-5">
+  <div class="container min-vh-100 d-flex justify-content-center align-items-center">
+    <div class="card shadow p-4" style="max-width: 700px; width: 100%;">
+      <h3 class="text-center mb-4">Registration Form</h3>
+
+      <form class="row g-3" action="index.html" method="get">
+        <div class="col-md-6">
+          <label for="firstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="firstName" required>
+        </div>
+
+        <div class="col-md-6">
+          <label for="lastName" class="form-label">Last Name</label>
+          <input type="text" class="form-control" id="lastName" required>
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label mt-2">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" required>
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label mt-2">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" minlength="6" required>
+        </div>
+
+        <div class="col-12">
+          <label for="inputAddress" class="form-label mt-2">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label mt-2">City</label>
+          <input type="text" class="form-control" id="inputCity" required>
+        </div>
+
+        <div class="col-md-4">
+          <label for="inputState" class="form-label mt-2">State</label>
+          <select id="inputState" class="form-select" required>
+            <option value="">Choose...</option>
+            <option>Mountain Province</option>
+            <option>Benguet</option>
+            <option>Ifugao</option>
+          </select>
+        </div>
+
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label mt-2">Zip</label>
+          <input type="text" class="form-control" id="inputZip" required>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check mt-2">
+            <input class="form-check-input" type="checkbox" id="gridCheck" required>
+            <label class="form-check-label" for="gridCheck">Check me out</label>
+          </div>
+        </div>
+
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary w-50 mt-3">Sign in</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
